@@ -1,0 +1,10 @@
+[ENABLE]
+aobscanmodule(MAGAZINES,GameAssembly.dll,45 33 C0 48 8B D0 48 8B CB E8 49 C2 05 00 49 89 85 B0 00 00 00)
+MAGAZINES+0E:
+  db 90 90 90 90 90 90 90
+registersymbol(MAGAZINES)
+
+[DISABLE]
+MAGAZINES+0E:
+  db 49 89 85 B0 00 00 00
+unregistersymbol(MAGAZINES)
