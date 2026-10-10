@@ -54,7 +54,7 @@ Tu peux utiliser ce script, le **n° 3** à la place, ou les deux ensemble : ils
 
 ---
 
-## [3. Limite de déploiement portée à 20 unités (alternative au n° 2)](scripts/DeploymentUnit20.asm) *(version corrigée - testé testé en jeu)*
+## [3. Limite de déploiement portée à 20 unités (alternative au n° 2)](scripts/DeploymentUnit20.asm) *(version corrigée, testée en jeu)*
 
 C’est cette valeur qui alimente réellement le compteur `4/4` : elle provient de `DeckSlotModel.Count`
 (récupérée via `IDeckSlotModel.get_Count` / `get_TransportCount`). L’ancienne version du script
@@ -326,5 +326,4 @@ ou regroupé dans une table `.CT`.
 Licence **MIT** pour les scripts et la documentation.
 Ce dépôt ne contient **aucun code, ressource ou binaire du jeu** : uniquement des scripts originaux fait à la main et des notes.
 *Broken Arrow* et ses ressources restent la propriété de leurs détenteurs respectifs.
-#   B r o k e n - A r r o w - a s m - s c r i p t s  
- 
+# Broken-Arrow-asm-scripts
